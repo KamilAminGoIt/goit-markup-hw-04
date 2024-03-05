@@ -171,6 +171,7 @@ img {
 }
 
 .social-icons {
+  background-color: #4d5ae5;
   width: 100%;
   height: 100%;
   border-radius: 50%;
@@ -180,12 +181,12 @@ img {
   align-items: center;
 }
 
-.team-card .icons-list-item:hover,
-.team-card .icons-list-item:focus {
+.team-card .social-icons:hover,
+.team-card .social-icons:focus {
   background-color: #404bbf;
 }
 
-.team-card .icons-list-item {
+.team-card .social-icons {
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -198,10 +199,8 @@ img {
 }
 
 .icons-list-item {
-  background-color: #4d5ae5;
   width: 40px;
   height: 40px;
-  border-radius: 50%;
 }
 
 .portfolio {
@@ -250,7 +249,8 @@ img {
   position: absolute;
   width: 100%;
   height: 100%;
-  top: 0;
+  top: 0px;
+  left: 0px;
   transform: translateY(100%);
 
   transition-property: transform;
@@ -312,14 +312,14 @@ footer .logo {
   gap: 16px;
 }
 
-.footer .icons-list-item {
+.footer .social-icons {
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer .icons-list-item:hover,
-.footer .icons-list-item:focus {
+.footer .social-icons:hover,
+.footer .social-icons:focus {
   background-color: #31d0aa;
 }
 
