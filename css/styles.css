@@ -1,4 +1,6 @@
-* {
+*,
+*::after,
+*::before {
   box-sizing: border-box;
 }
 
@@ -262,7 +264,7 @@ img {
 
 .portfolio-card-container-app-article {
   color: #f4f4fd;
-  background-color: #4d5ae5;
+  background-color: hsla(235, 75%, 60%, 0.9);
   padding: 40px 32px;
   font-size: 16px;
   line-height: 1.5;
@@ -273,7 +275,7 @@ img {
   height: 100%;
   top: 0px;
   left: 0px;
-  transform: translateY(100%);
+  transform: translateY(101%);
 
   transition-property: transform;
   transition-duration: 250ms;
@@ -362,6 +364,7 @@ footer .logo {
   line-height: 1.5rem;
   letter-spacing: 0.02em;
   display: block;
+  padding: 24px 0;
 }
 
 .link:hover,
